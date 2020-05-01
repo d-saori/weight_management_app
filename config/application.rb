@@ -28,6 +28,11 @@ module WeightManagementApp
     # the framework and any gems in your application.
 
     # Don't generate system test files.
+    # 日本語に変更
+    config.i18n.default_locale = :ja
+    # タイムゾーンも変更
+    config.time_zone = 'Asia/Tokyo'
+    
     config.generators.system_tests = nil
   end
 end
