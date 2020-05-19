@@ -21,6 +21,10 @@ document.addEventListener('turbolinks:load', () => ) {
         }
     }
 
+    // フォームの開始日・終了日を変更する
+    startCalendarFlatpickr.setDate(from)
+    endCalendarFlatpickr.setDate(to)
+
     const periodCalendarOption = {
         // スマートフォンでもカレンダーに「flatpickr」を使用
         disableMobile: true,
