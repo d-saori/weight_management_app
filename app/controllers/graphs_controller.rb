@@ -5,4 +5,11 @@ class GraphsController < ApplicationController
     # # null を nil にしないといけないので注意！
     # gon.chart_data = [60.3, 61.1, 60.8, nil, 60.5, 61.4]
   end
+
+  def create
+  end
+
+  def update
+  end
+  
 end
