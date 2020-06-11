@@ -138,6 +138,14 @@ drawGraphToToday(A_WEEK_AGO)
 
 })
 
+// 新規登録用のカレンダー
+flatpickr('#new-calendar', {
+    disableMobile: true,
+    // 記録のある日付を選択できないようにする
+    disable: gon.recorded_dates,
+    defaultDate: 'today',
+})
+
 // // Place all the behaviors and hooks related to the matching controller here.
 // // All this logic will automatically be available in application.js.
 // document.addEventListener('turbolinks:load', () => {
