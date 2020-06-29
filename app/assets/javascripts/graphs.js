@@ -1,4 +1,5 @@
 document.addEventListener('turbolinks:load', () => ) {
+    if (document.getElementById('start-calendar')) {
     // 日付の古い方・新しい方を取得する関数
     const minDate = (date1, date2) => (date1 < date2) ? date1 : date2
     const maxDate = (date1, date2) => (date1 > date2) ? date1 : date2
